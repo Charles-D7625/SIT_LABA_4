@@ -30,7 +30,7 @@ app.get("/student/:id", function (req, res) {
   }
 });
 app.get("/", function (req, res) {
-  res.send("прикол");
+  res.send("qwerty");
 });
 
 app.post("/student", jsonParser, function (req, res) {
